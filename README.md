@@ -35,7 +35,7 @@ A hybrid **LSTM + Transformer (seq2point)** model:
 
 1. Load `mains` and `appliance` (fridge/kettle) active power
 2. Align timestamps and remove NaNs
-3. Clip power spikes (e.g., `kettle > 3000W` removed and 'Fridge > 200' removed)
+3. Clip power spikes (e.g., `kettle > 3000W` removed and `Fridge > 200` removed)
 4. Normalize data using `MinMaxScaler`
 5. Create `seq2point` style sliding windows (length = 99)
 6. Train-test split (80/20)
