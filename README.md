@@ -69,7 +69,7 @@ This significantly improved both MAE and MAPE.
 
 ### Fridge (Regression)
 
-* MAE: **23.25W**
+* MAE: **12.40W**
 * MAPE: **\~2.0%**
 
 ### Kettle (Post-Processed Binary)
